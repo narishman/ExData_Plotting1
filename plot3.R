@@ -36,16 +36,14 @@ png("plot3.png",
     height=480,
     units="px")
 
-par(cex=0.8, 
-    cex.axis=0.8,
-    bg="transparent",
-    mar=c(2.8, 4.1, 4.1, 3.1)
+par(bg="transparent"
     )
 
 plot(ndf$Date,
      ndf$Sub_metering_1,
      type = 'n', 
-     ylab="Energy sub metering"
+     ylab="Energy sub metering",
+     xlab=''
      )
 
 with(ndf, 

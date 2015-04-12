@@ -33,9 +33,7 @@ png("plot1.png",
     height=480,
     units="px")
 
-par(cex=0.8, 
-    cex.axis=0.8,
-    bg="transparent"
+par(bg="transparent"
     )
 
 hist(ndf$Global_active_power, 

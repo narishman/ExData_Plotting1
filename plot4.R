@@ -34,9 +34,7 @@ png("plot4.png",
     height=480,
     units="px")
 
-par(cex=0.8, 
-    cex.axis=0.8,
-    bg="transparent",
+par(bg="transparent",
     mfrow = c(2,2)
     )
 
@@ -88,7 +86,6 @@ legend("topright",
        lwd=1,
        col=c("black","red","blue"),
        legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), 
-       cex=0.8,
        bty="n"
        )
 
@@ -98,7 +95,7 @@ plot(ndf$Date,
      type = 'l',
      ylab='Global_reactive_power',
      xlab='datetime',
-     lwd=0.5
+     lwd=0.1
      )
 dev.off() 
 

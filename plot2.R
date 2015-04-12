@@ -33,10 +33,7 @@ png("plot2.png",
     height=480,
     units="px")
 
-par(cex=0.8, 
-    cex.axis=0.8,
-    bg="transparent",
-    mar=c(5.1, 4.1, 4.1, 2.1)
+par(bg="transparent"
     )
 
 plot(ndf$Date,
